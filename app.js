@@ -44,3 +44,18 @@ CSS.paintWorklet.addModule("marvelbtn.js");
 // ctx.closePath();
 
 // ctx.stroke();
+// Images for latest left
+// https://terrigen-cdn-dev.marvel.com/content/prod/1x/_bw_card_2.jpg
+// https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6125637561001_ccf46e6ece9dd69be35508a1fd67822f.jpg
+// https://terrigen-cdn-dev.marvel.com/content/prod/1x/magic-destroys_card.jpg
+// https://terrigen-cdn-dev.marvel.com/content/prod/1x/wom_final.jpg
+// https://terrigen-cdn-dev.marvel.com/content/prod/1x/card_image_32.jpg
+//https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6139813808001_b855a0f9855e11cc79634c9d5b5f3844_0.jpg
+// https://terrigen-cdn-dev.marvel.com/content/prod/1x/_bw_card_1.jpg
+// https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6138424734001_e30750316fac187a7f5c797e1ea0e43c.jpg
+// Images for latest right
+// https://terrigen-cdn-dev.marvel.com/content/prod/1x/4a5e4d884e4b8e8340247093983addda._sx1280_ql80_ttd_c.jpg
+// https://terrigen-cdn-dev.marvel.com/content/prod/1x/black_panther.png
+// https://terrigen-cdn-dev.marvel.com/content/prod/1x/image1.png
+// https://terrigen-cdn-dev.marvel.com/content/prod/1x/humberto-ramos-strange-academy_card.jpg
+// https://terrigen-cdn-dev.marvel.com/content/prod/1x/card_image_31.jpg

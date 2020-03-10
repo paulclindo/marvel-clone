@@ -21,7 +21,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #e5e5e5;
+  background: var(--white-color);
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -92,7 +92,7 @@ h1 {
   background-color: var(--white-color);
 }
 .container {
-  max-width: 1080px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -568,6 +568,119 @@ a:hover .card--body {
 /* latest section */
 .latest {
   /* height: 50vh; */
+  margin: auto;
+  display: flex;
   padding: 6rem 0 40px;
   background-color: white;
+}
+.latest__left {
+  flex: 4 0 70%;
+  margin-right: 2rem;
+}
+
+.latest__right {
+  flex: 1 0 25%;
+  margin: 0;
+  padding-top: 3rem;
+  align-self: flex-start;
+}
+
+.card__latest__wrapper {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+.card__latest__image {
+  flex: 1 0 50%;
+}
+.card__latest__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.card__latest__info {
+  flex: 1 0 50%;
+  padding-left: 2rem;
+}
+.card__heading {
+  color: #999999;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin: 0.8rem 0;
+}
+.card__title {
+  color: var(--darker-color);
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin: 0.8rem 0;
+}
+.card__time {
+  color: #999999;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  /* font-weight: bold; */
+  font-size: 0.8rem;
+}
+/* Feed section */
+.feed__wrapper {
+  margin-top: -10px;
+}
+
+.image__svg {
+  fill: none;
+  stroke: #c6a972;
+  stroke-width: 3px;
+}
+.feed__title {
+  font-weight: 500;
+  font-size: 1.7rem;
+  padding: 0 0 10px;
+  margin: -25px 0 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.feed__subtitle {
+  font-size: 0.875rem;
+  padding: 0 15px 20px;
+  letter-spacing: 0.5px;
+  color: #202020;
+}
+
+.feed__card__wrapper {
+  display: flex;
+  align-items: center;
+  padding: 1.4rem 1.1rem;
+  border-top: 1px solid #f2f2f2;
+}
+
+.feed__card__wrapper img {
+  width: 100%;
+}
+
+.feed__card__image {
+  flex: 1 0 30%;
+}
+.feed__card__info {
+  flex: 4 0 70%;
+  padding-left: 20px;
+}
+.feed__card__heading {
+  color: #999999;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  width: 100%;
+}
+
+.image__svg--bottom {
+  margin-top: -20px;
+  display: block;
+  text-align: end;
+}
+.image__svg--bottom svg {
+  justify-self: flex-end;
+  transform: rotate(180deg);
 }
