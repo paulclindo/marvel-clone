@@ -452,16 +452,15 @@ a:hover .card--body {
   font-size: 2.5rem;
   letter-spacing: 1px;
 }
-
-.suscription__cards__container {
-  overflow-x: scroll;
+.cards__container {
+overflow-x: scroll;
   white-space: nowrap;
   padding: 2rem;
-}
+} 
 .suscription__card {
   width: 200px;
   display: inline-block;
-  margin-right: 01rem;
+  margin-right: 1rem;
 }
 
 .suscription__card a {
@@ -831,7 +830,14 @@ button.btn--play {
   opacity: 1;
   transition: all 0.4s;
 }
-
-/* background:url(https://terrigen-cdn-dev.marvel.com/content/prod/1x/new_com_20200309_set_01.jpg) */
+section .section {
+  height: auto;
+}
 
 /* comics section */
+.comic__background__wrapper {
+  background: url(https://terrigen-cdn-dev.marvel.com/content/prod/1x/new_com_20200309_set_01.jpg);
+  background-position: left center;
+}
+
+.
