@@ -453,10 +453,10 @@ a:hover .card--body {
   letter-spacing: 1px;
 }
 .cards__container {
-overflow-x: scroll;
+  overflow-x: scroll;
   white-space: nowrap;
   padding: 2rem;
-} 
+}
 .suscription__card {
   width: 200px;
   display: inline-block;
@@ -840,4 +840,51 @@ section .section {
   background-position: left center;
 }
 
-.
+/* promo section */
+.promo {
+  background-color: #000;
+  margin-top: 3rem;
+  color: var(--white-color);
+  position: relative;
+}
+.promo > .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.promo__content__main {
+  padding: 2rem;
+  text-align: center;
+}
+
+.promo__content__main > * {
+  padding: 1rem 0;
+  font-family: "Roboto", sans-serif;
+}
+.promo__label {
+  color: var(--red-color);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.promo__title {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.promo__description {
+  letter-spacing: 1px;
+}
+.promo__legal {
+  font-size: 0.6rem;
+  letter-spacing: 0.8px;
+  font-weight: lighter;
+}
+.promo a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/* footer section */
