@@ -888,3 +888,122 @@ section .section {
 }
 
 /* footer section */
+.footer {
+  background: var(--darker-color);
+  color: var(--white-color);
+  padding: 5rem 0 3rem;
+  font-family: "Roboto";
+}
+.page__footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.page__footer > * {
+  /* flex: 3; */
+}
+.page__footer > .footer__follow {
+  /* flex: 1; */
+}
+
+.footer__links {
+  /* padding: 2rem 0; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.icon--svg {
+  display: block;
+  width: 90px;
+}
+.footer__logo {
+  padding-right: 2rem;
+}
+.primary__links {
+}
+.footer__link {
+  margin: 0 1rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.secondary__links {
+  color: #bbb;
+}
+.footer__promos__wrapper {
+  margin-bottom: 1.2rem;
+}
+.footer__promos {
+  padding: 0 1rem;
+}
+.footer__promos a {
+  display: flex;
+  align-items: center;
+}
+.footer__promos__image {
+  flex: 1;
+}
+.footer__promos__info {
+  padding-left: 2rem;
+  flex: 8;
+  letter-spacing: 1.2px;
+  font-size: 0.8rem;
+}
+.promos__title {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.promos__description {
+  color: #999;
+  font-weight: lighter;
+}
+.footer__promos__image img {
+  width: 100%;
+}
+
+.footer__follow {
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-size: 0.8rem;
+  flex-basis: 220px;
+}
+
+.footer__follow h4 {
+  margin-bottom: 1.5rem;
+}
+.footer__follow__icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer__follow__icons a {
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+.footer__follow__icons .icon--svg {
+  width: 20px;
+  fill: #999;
+}
+.icon--svg:hover {
+  width: 20px;
+  fill: var(--white-color);
+}
+
+.footer__legal {
+  padding-top: 3rem;
+  font-size: 0.75rem;
+  color: #999;
+  letter-spacing: 1px;
+  font-weight: 100;
+  text-transform: capitalize;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer__legal__link {
+  margin: 0.6rem 1rem;
+  transition: all 0.7s;
+}
+.footer__legal__link:hover {
+  color: var(--white-color);
+}
