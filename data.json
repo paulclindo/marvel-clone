@@ -1,0 +1,433 @@
+{
+  "baseSlides": [
+    {
+      "id": 0,
+      "imageUrl": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/mhpaustin_0313_com_mas_mob_01.jpg",
+      "title": "Astonishing Austin",
+      "description": "Real kids making a real difference. Stream now, only on Disney+."
+    },
+    {
+      "id": 1,
+      "imageUrl": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/shangchi_0312_com_mas_mob_01.jpg",
+      "title": "Shang-Chi is Back",
+      "description": "See what's coming in the next chapter for the Master of Kung Fu!"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/avengerscampus_mas_mob.jpg",
+      "title": "Avengers Campus Opening July 18",
+      "description": "Here's everything you need to know about the new land coming to Disney California Adventure!"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/pulllist_0310_com_mas_mob_02.jpg",
+      "title": "Exclusive: June's New Comics",
+      "description": "Get the first look at new comics on the way this summer with 'Marvel's Pull List'!"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/bbfinaltrailer_mas_mob.jpg",
+      "title": "Final Trailer",
+      "description": "\"At some point, we all have to choose between what the world wants you to be and who you are.\""
+    }
+  ],
+  "slidesComics": [
+    {
+      "id": 0,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/9/60/5d63e46315cfb/portrait_uncanny.jpg",
+      "description": "House of X (2019) #4",
+      "year": "2019"
+    },
+    {
+      "id": 1,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/5/f0/5d63e420aa672/portrait_uncanny.jpg",
+      "description": "Absolute Carnage: Scream (2019) #2",
+      "year": "2019"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/4/10/5d63e474792a7/portrait_uncanny.jpg",
+      "description": "Immortal Hulk (2018) #23",
+      "year": "2019"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/6/60/5d63e43b5a681/portrait_uncanny.jpg",
+      "description": "The Web of Black Widow (2019) #1",
+      "year": "2019"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/6/00/5d63e4123bf33/portrait_uncanny.jpg",
+      "description": "Absolute Carnage: Symbiote Spider-Man (2019) #1",
+      "year": "2019"
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/6/e0/5d63e46ce2468/portrait_uncanny.jpg",
+      "description": "Ghost-Spider Annual (2019) #1",
+      "year": "2019"
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/c/d0/5d63e45be9e6a/portrait_uncanny.jpg",
+      "description": "Agents of Atlas (2019) #2",
+      "year": "2019"
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/1/00/5d63e42925684/portrait_uncanny.jpg",
+      "description": "Alpha Flight: True North (2019) #1",
+      "year": "2019"
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/f/a0/5d63e3fec4ac9/portrait_uncanny.jpg",
+      "description": "Amazing Spider-Man: Going Big (2019) #1",
+      "year": "2019"
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/6/50/5d63e3f6360a4/portrait_uncanny.jpg",
+      "description": "Champions (2019) #9",
+      "year": "2019"
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/c/80/5d63e3ed49a2d/portrait_uncanny.jpg",
+      "description": "Fantastic Four (2018) #14",
+      "year": "2019"
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/f/c0/5d694e51eeafc/portrait_uncanny.jpg",
+      "description": "Future Foundation (2019) #2",
+      "year": "2019"
+    },
+    {
+      "id": 12,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/6/50/5dee805280d51/portrait_uncanny.jpg",
+      "description": "Marvel Action Avengers (2018) #8",
+      "year": "2019"
+    },
+    {
+      "id": 13,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/6/b0/5d63e4534af57/portrait_uncanny.jpg",
+      "description": "Old Man Quill (2019) #9",
+      "year": "2019"
+    },
+    {
+      "id": 14,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/6/80/5d63e432e590d/portrait_uncanny.jpg",
+      "description": "Spider-Woman Facsimile Edition (2019) #1",
+      "year": "2019"
+    },
+    {
+      "id": 15,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/c/30/5d63e44bac8b3/portrait_uncanny.jpg",
+      "description": "Star Wars (2015) #71",
+      "year": "2019"
+    },
+    {
+      "id": 16,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/6/20/5d63e443a305f/portrait_uncanny.jpg",
+      "description": "Star Wars: Jedi Fallen Order - Dark Temple (2019) #1",
+      "year": "2019"
+    },
+    {
+      "id": 17,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/9/80/5d63e3dc260f8/portrait_uncanny.jpg",
+      "description": "The Punisher (2018) #15",
+      "year": "2019"
+    }
+  ],
+  "comic": [
+    {
+      "id": 0,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/a/20/5e5835c5a49ff/portrait_uncanny.jpg",
+      "description": "Cable (2020) #1",
+      "year": "2020"
+    },
+    {
+      "id": 1,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/6/40/5e5835541c3ca/portrait_uncanny.jpg",
+      "description": "X-Men (2019) #8",
+      "year": "2020"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/3/80/5e5835cd50309/portrait_uncanny.jpg",
+      "description": "Thor (2020) #4",
+      "year": "2020"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/c/f0/5e5835ed7caf5/portrait_uncanny.jpg",
+      "description": "Immortal Hulk (2018) #32",
+      "year": "2020"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/6/90/5e5835b67d2d0/portrait_uncanny.jpg",
+      "description": "Venom (2018) #24",
+      "year": "2020"
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/c/80/5e58357cdeab2/portrait_uncanny.jpg",
+      "description": "New Mutants (2019) #9",
+      "year": "2020"
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/3/50/5e5d47224c740/portrait_uncanny.jpg",
+      "description": "The Amazing Spider-Man (2018) #41",
+      "year": "2020"
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/a/70/5e5835fce8b69/portrait_uncanny.jpg",
+      "description": "Ant-Man (2020) #3",
+      "year": "2020"
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/9/90/5e5835dd0f2b7/portrait_uncanny.jpg",
+      "description": "Avengers (2018) #32",
+      "year": "2020"
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/9/70/5e5835d52c3bd/portrait_uncanny.jpg",
+      "description": "Avengers of the Wastelands (2020) #3",
+      "year": "2020"
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/6/c0/5e5835ae38b45/portrait_uncanny.jpg",
+      "description": "Ghost Rider (2019) #6",
+      "year": "2020"
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/a/40/5e5835f55fb7e/portrait_uncanny.jpg",
+      "description": "Gwen Stacy (2020) #2",
+      "year": "2020"
+    },
+    {
+      "id": 12,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/9/90/5e5835a57acd4/portrait_uncanny.jpg",
+      "description": "Hawkeye: Freefall (2020) #4",
+      "year": "2020"
+    },
+    {
+      "id": 13,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/1/70/5e58358d95544/portrait_uncanny.jpg",
+      "description": "Jessica Jones: Blind Spot (2020) #5",
+      "year": "2020"
+    },
+    {
+      "id": 14,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/7/60/5e596fc71e467/portrait_uncanny.jpg",
+      "description": "Marvel Tales: Silver Surfer (2020) #1",
+      "year": "2020"
+    },
+    {
+      "id": 15,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/1/70/5e5835857b458/portrait_uncanny.jpg",
+      "description": "Marvel's Spider-Man: The Black Cat Strikes (2020) #3",
+      "year": "2020"
+    },
+    {
+      "id": 16,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/3/d0/5e583574b5c26/portrait_uncanny.jpg",
+      "description": "Nebula (2020) #2",
+      "year": "2020"
+    },
+    {
+      "id": 17,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/6/40/5e5d46b22d147/portrait_uncanny.jpg",
+      "description": "Punisher: Soviet (2019) #5",
+      "year": "2020"
+    },
+    {
+      "id": 18,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/9/d0/5e583595dcc3b/portrait_uncanny.jpg",
+      "description": "Spider-Ham (2019) #4",
+      "year": "2020"
+    },
+    {
+      "id": 19,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/4/70/5e58356c8c856/portrait_uncanny.jpg",
+      "description": "Star Wars: Bounty Hunters (2020) #1",
+      "year": "2020"
+    },
+    {
+      "id": 20,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/9/f0/5e58359e5a8ba/portrait_uncanny.jpg",
+      "description": "Star Wars: Darth Vader (2020) #2",
+      "year": "2020"
+    },
+    {
+      "id": 21,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/1/04/5e5835be9edec/portrait_uncanny.jpg",
+      "description": "Star Wars: The Rise of Kylo Ren (2019) #4",
+      "year": "2020"
+    },
+    {
+      "id": 22,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/e/03/5e583564e8412/portrait_uncanny.jpg",
+      "description": "Sub-Mariner: Marvels Snapshots (2020) #1",
+      "year": "2020"
+    },
+    {
+      "id": 23,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/6/f0/5e58355ce843c/portrait_uncanny.jpg",
+      "description": "Symbiote Spider-Man: Alien Reality (2019) #4",
+      "year": "2020"
+    },
+    {
+      "id": 24,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/7/00/5e5835e5073ff/portrait_uncanny.jpg",
+      "description": "Thor Facsimile Edition (2020) #229",
+      "year": "2020"
+    },
+    {
+      "id": 25,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/6/a0/5e5970ae0396b/portrait_uncanny.jpg",
+      "description": "True Believers: Empyre - Anelle (2020) #1",
+      "year": "2020"
+    },
+    {
+      "id": 26,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/3/d0/5e5970b420c99/portrait_uncanny.jpg",
+      "description": "True Believers: Empyre - Hulkling (2020) #1",
+      "year": "2020"
+    },
+    {
+      "id": 27,
+      "imageUrl": "https://i.annihil.us/u/prod/marvel/i/mg/3/d0/5e5970ba36827/portrait_uncanny.jpg",
+      "description": "True Believers: Empyre - Quoi (2020) #1",
+      "year": "2020"
+    }
+  ],
+  "podcast": [
+    {
+      "id": 0,
+      "imageUrl": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/16x9.png",
+      "label": "Comics",
+      "title": "Exclusive Announcement: New Marvel Comics Coming in June 2020"
+    },
+    {
+      "id": 1,
+      "imageUrl": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/cleanc_41.jpg",
+      "label": "Comics",
+      "title": "Full List: Every New Marvel Comic Hitting Stores Tomorrow"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/wom-3-12-20.jpg",
+      "label": "Podcasts",
+      "title": "Women of Marvel Live at C2E2 2020"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/image1.png",
+      "label": "Comics",
+      "title": "Listen to the J. Jonah Jameson Podcast"
+    }
+  ],
+  "latest": [
+    {
+      "id": 0,
+      "imageUrl": "\"https://terrigen-cdn-dev.marvel.com/content/prod/1x/0313_recap-1560x876-1.jpg\"",
+      "subtitle": null,
+      "title": "This Week's 10 Must-Read Marvel Stories: 03-13-2020",
+      "time": null
+    },
+    {
+      "id": 1,
+      "imageUrl": "\"https://terrigen-cdn-dev.marvel.com/content/prod/1x/836954._sx1280_ql80_ttd_.jpg\"",
+      "subtitle": null,
+      "title": "Everything That's Happened in 'Venom' So Far",
+      "time": null
+    },
+    {
+      "id": 2,
+      "imageUrl": "\"https://terrigen-cdn-dev.marvel.com/content/prod/1x/shangchi2020001_cvr_copy.jpg\"",
+      "subtitle": null,
+      "title": "Marvel’s Greatest Martial Artist Springs into Action in 'Shang-Chi' #1",
+      "time": null
+    },
+    {
+      "id": 3,
+      "imageUrl": "\"https://terrigen-cdn-dev.marvel.com/content/prod/1x/_msm_card_12.jpg\"",
+      "subtitle": null,
+      "title": "'Marvel's Spider-Man: Maximum Venom' To Debut April 19 on Disney XD and DisneyNOW",
+      "time": null
+    },
+    {
+      "id": 4,
+      "imageUrl": "\"https://terrigen-cdn-dev.marvel.com/content/prod/1x/844517._sx1280_ql80_ttd_.jpg\"",
+      "subtitle": null,
+      "title": "Everything You Need to Know About 'Champions' Before 'Outlawed' Begins",
+      "time": null
+    },
+    {
+      "id": 5,
+      "imageUrl": "\"https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6125647384001_3c7571c8e70384db1d946623f686a3f0.jpg\"",
+      "subtitle": "Trailers & Extras",
+      "title": "Marvel's Hero Project Clip: Astonishing Austin",
+      "time": "2 hours ago"
+    },
+    {
+      "id": 6,
+      "imageUrl": "\"https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6141372274001_f3e8f4ae5d9d482b4e2decb6ee5614de_0.jpg\"",
+      "subtitle": "Earth's Mightiest Show",
+      "title": "The History of Vision & The Scarlet Witch",
+      "time": "3 hours ago"
+    },
+    {
+      "id": 7,
+      "imageUrl": "\"https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6140233373001_9ff66e6591b5428e8b0aa7d623209570.jpg\"",
+      "subtitle": "Marvel 101",
+      "title": "Falcon | Marvel 101",
+      "time": "1 day ago"
+    },
+    {
+      "id": 8,
+      "imageUrl": "\"https://terrigen-cdn-dev.marvel.com/content/prod/1x/844872._sx1280_ql80_ttd_.jpg\"",
+      "subtitle": null,
+      "title": "Why Barracuda May Be the Punisher's Deadliest Foe",
+      "time": "1 day ago"
+    },
+    {
+      "id": 9,
+      "imageUrl": "\"https://terrigen-cdn-dev.marvel.com/content/prod/1x/captain-america-madbomb.jpg\"",
+      "subtitle": null,
+      "title": "Marvel Flashback: Captain America's Madbomb Saga",
+      "time": "1 day ago"
+    },
+    {
+      "id": 10,
+      "imageUrl": "\"https://terrigen-cdn-dev.marvel.com/content/prod/1x/spider-woman_card_image.jpg\"",
+      "subtitle": null,
+      "title": "7 Comics to Read After Watching ‘Spider-Woman’ on Disney+",
+      "time": "1 day ago"
+    },
+    {
+      "id": 11,
+      "imageUrl": "\"https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6141374107001_4b7f3506c9dd92046c2b80f007085bac_0.jpg\"",
+      "subtitle": "Trailers & Extras",
+      "title": "EMPYRE: Coming April 15th | Marvel Comics",
+      "time": "1 day ago"
+    },
+    {
+      "id": 12,
+      "imageUrl": "\"https://terrigen-cdn-dev.marvel.com/content/prod/1x/0313_recap-1560x876-1.jpg\"",
+      "subtitle": null,
+      "title": "This Week's 10 Must-Read Marvel Stories: 03-13-2020",
+      "time": "1 day ago"
+    }
+  ]
+}

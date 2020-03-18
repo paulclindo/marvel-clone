@@ -485,42 +485,6 @@ a:hover .card--body {
   color: #999999;
   font-weight: 100;
 }
-.suscription__card:nth-child(1) .card--image {
-  background-image: url("https://i.annihil.us/u/prod/marvel/i/mg/8/e0/5d5d4d0c5091a/portrait_uncanny.jpg");
-}
-.suscription__card:nth-child(2) .card--image {
-  background-image: url("https://i.annihil.us/u/prod/marvel/i/mg/9/80/5d5d4cb71428f/portrait_uncanny.jpg");
-}
-.suscription__card:nth-child(3) .card--image {
-  background-image: url("https://i.annihil.us/u/prod/marvel/i/mg/f/60/5d5d4ceb33fa8/portrait_uncanny.jpg");
-}
-.suscription__card:nth-child(4) .card--image {
-  background-image: url("https://i.annihil.us/u/prod/marvel/i/mg/5/04/5d5d4cbf869ff/portrait_uncanny.jpg");
-}
-.suscription__card:nth-child(5) .card--image {
-  background-image: url("https://i.annihil.us/u/prod/marvel/i/mg/6/f0/5d5d4d043f968/portrait_uncanny.jpg");
-}
-.suscription__card:nth-child(6) .card--image {
-  background-image: url("https://i.annihil.us/u/prod/marvel/i/mg/c/a0/5d5d4c8c6e22f/portrait_uncanny.jpg");
-}
-.suscription__card:nth-child(7) .card--image {
-  background-image: url("https://i.annihil.us/u/prod/marvel/i/mg/8/e0/5d5d4d0c5091a/portrait_uncanny.jpg");
-}
-.suscription__card:nth-child(8) .card--image {
-  background-image: url("https://i.annihil.us/u/prod/marvel/i/mg/9/80/5d5d4cb71428f/portrait_uncanny.jpg");
-}
-.suscription__card:nth-child(9) .card--image {
-  background-image: url("https://i.annihil.us/u/prod/marvel/i/mg/f/60/5d5d4ceb33fa8/portrait_uncanny.jpg");
-}
-.suscription__card:nth-child(10) .card--image {
-  background-image: url("https://i.annihil.us/u/prod/marvel/i/mg/5/04/5d5d4cbf869ff/portrait_uncanny.jpg");
-}
-.suscription__card:nth-child(11) .card--image {
-  background-image: url("https://i.annihil.us/u/prod/marvel/i/mg/6/f0/5d5d4d043f968/portrait_uncanny.jpg");
-}
-.suscription__card:nth-child(12) .card--image {
-  background-image: url("https://i.annihil.us/u/prod/marvel/i/mg/c/a0/5d5d4c8c6e22f/portrait_uncanny.jpg");
-}
 
 /* podcast section */
 .podcast {
@@ -552,18 +516,7 @@ a:hover .card--body {
 .podcast div {
   letter-spacing: 1.5px;
 }
-.podcast__card:nth-child(1) .card--image {
-  background-image: url("https://terrigen-cdn-dev.marvel.com/content/prod/1x/twim-2-28-20.jpg");
-}
-.podcast__card:nth-child(2) .card--image {
-  background-image: url("https://terrigen-cdn-dev.marvel.com/content/prod/1x/cleanc_38.jpg");
-}
-.podcast__card:nth-child(3) .card--image {
-  background-image: url("https://terrigen-cdn-dev.marvel.com/content/prod/1x/wom-2-27-20.jpg");
-}
-.podcast__card:nth-child(4) .card--image {
-  background-image: url("https://terrigen-cdn-dev.marvel.com/content/prod/1x/image1.png");
-}
+
 /* latest section */
 .latest {
   /* height: 50vh; */
@@ -835,6 +788,9 @@ section .section {
 }
 
 /* comics section */
+.comic {
+  height: auto;
+}
 .comic__background__wrapper {
   background: url(https://terrigen-cdn-dev.marvel.com/content/prod/1x/new_com_20200309_set_01.jpg);
   background-position: left center;
@@ -899,12 +855,6 @@ section .section {
   align-items: flex-start;
   justify-content: space-between;
 }
-.page__footer > * {
-  /* flex: 3; */
-}
-.page__footer > .footer__follow {
-  /* flex: 1; */
-}
 
 .footer__links {
   /* padding: 2rem 0; */
@@ -920,8 +870,6 @@ section .section {
 }
 .footer__logo {
   padding-right: 2rem;
-}
-.primary__links {
 }
 .footer__link {
   margin: 0 1rem 1rem;

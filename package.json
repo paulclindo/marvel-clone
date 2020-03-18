@@ -1,0 +1,24 @@
+{
+  "name": "marvel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "run-script": "node api/script.js",
+    "server": "json-server --watch data.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulclindo/marvel-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^2.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/paulclindo/marvel-clone/issues"
+  },
+  "homepage": "https://github.com/paulclindo/marvel-clone#readme"
+}
