@@ -5,7 +5,7 @@ const URL_BASE = "http://localhost:3000";
 const $podcastWrapper = document.querySelector(".podcast__cards__container");
 const $comicFirstWrapper = document.querySelector(".comicfirst__wrapper");
 const $comicWrapper = document.querySelector(".comic__cards__container");
-
+const $slidersWrapper = document.querySelector('.carousel__track')
 /*FETCH DATA*/
 const getData = async URL => {
   const response = await fetch(URL);
@@ -46,6 +46,32 @@ const comicTemplate = item => {
             </a>
           </div>`;
 };
+const sliderTemplate = item => {
+  return `<li class="carousel__slide">
+              <a href="" class="carousel__page">
+                <img
+                  class="carousel__image"
+                  src=${item.imageUrl}
+                  alt
+                />
+                <div class="carousel__info">
+                  <h1>${item.title}</h1>
+                  <p>${item.description}</p>
+                  <button class="button">Watch now</button>
+                </div>
+              </a>
+            </li>
+            `;
+};
+
+getData(`${URL_BASE}/baseSlides`).then(sliders => {
+  let slidersHTML = "";
+  sliders.map(slider => {
+    slidersHTML += sliderTemplate(slider);
+  });
+  console.log({slidersHTML})
+  $slidersWrapper.innerHTML = slidersHTML;
+});
 
 getData(`${URL_BASE}/podcast`).then(podcasts => {
   let podcastsHTML = "";
@@ -69,3 +95,4 @@ getData(`${URL_BASE}/slidesComics`).then(comics => {
   });
   $comicFirstWrapper.innerHTML = comicHTML;
 });
+

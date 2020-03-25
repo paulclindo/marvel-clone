@@ -227,28 +227,70 @@ h1 {
 .carousel {
   height: inherit;
   padding: 0 0 1rem;
-  background-color: var(--darker-color);
+  /* background-color: var(--darker-color); */
 }
 .carousel__image {
-  max-width: 100%;
   object-fit: cover;
   display: block;
   height: inherit;
+  width:100%;
 }
 
 .carousel__track-container {
+  clip-path: polygon(0 0,0 100%,100% 92%,100% 0);
   height: 100%;
 }
 
 .carousel__track {
   /* display: inline-flex; */
+  width:100%;
   height: 100%;
   overflow: hidden;
+  position:relative;
 }
 .carousel__slide {
-  height: inherit;
+  position: absolute;
   width: 100vw;
+  height:inherit;
+  z-index: 0;
+  transform:translate3d(0%, 0px, 0px);
+  opacity: 0;
 }
+.carousel__page {
+  position: relative;
+}
+.carousel__info {
+  position: absolute;
+  top:50%;
+  left:10%;
+  transform:translateY(-50%);
+  color:var(--white-color);
+}
+.carousel__info h1{
+  font-size:3rem;
+  text-transform: uppercase;
+  font-weight:500;
+  padding:.8rem 0;
+}
+
+.carousel__info p{
+  font-size:1rem;
+  padding:0 0 20px;
+  letter-spacing: .5px;
+  margin:1rem 0;
+}
+/* TODO */
+.carousel__slide:nth-child(2) {
+  opacity:1;
+  z-index: 1;
+  transform:translate3d(25%, 0px, 0px);
+} 
+.carousel__slide:nth-child(4) {
+  opacity:1;
+  z-index: 1;
+  transform:translate3d(25%, 0px, 0px);
+} 
+
 .carousel__slide a {
   display: block;
   height: 100%;
@@ -262,7 +304,8 @@ h1 {
   background-color: var(--white-color);
   position: absolute;
   left: 10%;
-  top: -25px;
+  top: -55px;
+  padding: 0 1rem;
   display: flex;
   align-items: center;
   justify-self: center;
@@ -270,22 +313,37 @@ h1 {
 
 .carousel__indicator {
   position: relative;
-  width: 230px;
+  min-width: 125px;
+  flex:1 ;
   height: 80px;
-  padding: 1.4rem 30px;
+  padding: 1.2rem 0;
 }
 .carousel__indicator a {
   font-weight: bold;
-  font-family: "Roboto" sans-serif;
   padding: 20px 30px 20px 0;
+  letter-spacing: 0.8px;
+  font-weight: 600;
+  transition:.8s all;
+}
+.carousel__indicator a:hover {
+  color:var(--red-color);
 }
 .carousel__indicator:after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 80%;
-  background-color: #e62429;
+  width:0;
+  height: 5px;
+  transition:.8s all;
+}
+.carousel__indicator:hover:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+   width: 100%; 
+  background-color: var(--red-color); 
   height: 6px;
 }
 
@@ -865,8 +923,8 @@ section .section {
 }
 
 .icon--svg {
-  display: block;
-  width: 90px;
+  /* display: block;
+  width: 90px; */
 }
 .footer__logo {
   padding-right: 2rem;
