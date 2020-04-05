@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,500,600,700,800|Roboto:300,400,500,700,900&display=swap");
+@import url(./fonts/stylesheet.css);
 
 /* Variables */
 :root {
@@ -8,6 +8,10 @@
   --white-color: #ffffff;
   --red-color: #e62429;
   --btn-width: 2;
+  --r-regular-font: "Roboto Regular";
+  --r-bold-font: "Roboto Bold";
+  --rc-regular: "Roboto Condensed Regular";
+  --rc-bold-font: "Roboto Condensed Bold";
 }
 
 /* General Setting */
@@ -22,7 +26,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background: var(--white-color);
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: var(--r-regular-font), sans-serif;
 }
 
 /* TODO */
@@ -233,27 +237,27 @@ h1 {
   object-fit: cover;
   display: block;
   height: inherit;
-  width:100%;
+  width: 100%;
 }
 
 .carousel__track-container {
-  clip-path: polygon(0 0,0 100%,100% 92%,100% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 92%, 100% 0);
   height: 100%;
 }
 
 .carousel__track {
   /* display: inline-flex; */
-  width:100%;
+  width: 100%;
   height: 100%;
   overflow: hidden;
-  position:relative;
+  position: relative;
 }
 .carousel__slide {
   position: absolute;
   width: 100vw;
-  height:inherit;
+  height: inherit;
   z-index: 0;
-  transform:translate3d(0%, 0px, 0px);
+  transform: translate3d(0%, 0px, 0px);
   opacity: 0;
 }
 .carousel__page {
@@ -261,35 +265,35 @@ h1 {
 }
 .carousel__info {
   position: absolute;
-  top:50%;
-  left:10%;
-  transform:translateY(-50%);
-  color:var(--white-color);
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: var(--white-color);
 }
-.carousel__info h1{
-  font-size:3rem;
+.carousel__info h1 {
+  font-size: 3rem;
   text-transform: uppercase;
-  font-weight:500;
-  padding:.8rem 0;
+  font-weight: 500;
+  padding: 0.8rem 0;
 }
 
-.carousel__info p{
-  font-size:1rem;
-  padding:0 0 20px;
-  letter-spacing: .5px;
-  margin:1rem 0;
+.carousel__info p {
+  font-size: 1rem;
+  padding: 0 0 20px;
+  letter-spacing: 0.5px;
+  margin: 1rem 0;
 }
 /* TODO */
 .carousel__slide:nth-child(2) {
-  opacity:1;
+  opacity: 1;
   z-index: 1;
-  transform:translate3d(25%, 0px, 0px);
-} 
+  transform: translate3d(25%, 0px, 0px);
+}
 .carousel__slide:nth-child(4) {
-  opacity:1;
+  opacity: 1;
   z-index: 1;
-  transform:translate3d(25%, 0px, 0px);
-} 
+  transform: translate3d(25%, 0px, 0px);
+}
 
 .carousel__slide a {
   display: block;
@@ -314,7 +318,7 @@ h1 {
 .carousel__indicator {
   position: relative;
   min-width: 125px;
-  flex:1 ;
+  flex: 1;
   height: 80px;
   padding: 1.2rem 0;
 }
@@ -323,27 +327,27 @@ h1 {
   padding: 20px 30px 20px 0;
   letter-spacing: 0.8px;
   font-weight: 600;
-  transition:.8s all;
+  transition: 0.8s all;
 }
 .carousel__indicator a:hover {
-  color:var(--red-color);
+  color: var(--red-color);
 }
 .carousel__indicator:after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width:0;
+  width: 0;
   height: 5px;
-  transition:.8s all;
+  transition: 0.8s all;
 }
 .carousel__indicator:hover:after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-   width: 100%; 
-  background-color: var(--red-color); 
+  width: 100%;
+  background-color: var(--red-color);
   height: 6px;
 }
 
