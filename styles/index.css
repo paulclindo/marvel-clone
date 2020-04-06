@@ -1,4 +1,4 @@
-@import url(./fonts/stylesheet.css);
+@import url(./fonts/fonts.css);
 
 /* Variables */
 :root {
@@ -257,8 +257,8 @@ h1 {
   width: 100vw;
   height: inherit;
   z-index: 0;
-  transform: translate3d(0%, 0px, 0px);
-  opacity: 0;
+  /* transform: translate3d(0%, 0px, 0px); */
+  /* opacity: 0; */
 }
 .carousel__page {
   position: relative;
@@ -285,13 +285,13 @@ h1 {
 }
 /* TODO */
 .carousel__slide:nth-child(2) {
-  opacity: 1;
-  z-index: 1;
+  opacity: 0;
+  z-index: 0;
   transform: translate3d(25%, 0px, 0px);
 }
 .carousel__slide:nth-child(4) {
-  opacity: 1;
-  z-index: 1;
+  opacity: 0;
+  z-index: 0;
   transform: translate3d(25%, 0px, 0px);
 }
 

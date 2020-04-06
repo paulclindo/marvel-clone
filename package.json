@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "live-server . --browser=chrome",
     "run-script": "node api/script.js",
     "server": "json-server --watch data.json"
   },
@@ -15,7 +16,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^2.1.1"
+    "live-server": "^1.2.1",
+    "puppeteer": "^2.1.1",
+    "serve": "^11.3.0"
   },
   "bugs": {
     "url": "https://github.com/paulclindo/marvel-clone/issues"
