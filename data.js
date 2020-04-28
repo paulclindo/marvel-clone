@@ -33,7 +33,7 @@ export default {
     {
       id: 4,
       imageUrl:
-        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/rare_0401_com_mas_mob_01.jpg",
+        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/muoffer_com_mas_dsk_02.jpg",
       title: "Rare Marvel Art",
       description:
         "Take a look at some rare vintage Marvel art featuring the Fantastic Four, X-Men and more, courtesy of our very own Tom Brevoort!",

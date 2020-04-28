@@ -32,10 +32,12 @@ baseSlides.forEach((slide) => {
         src=${slide.imageUrl}
         alt=""
       />
-      <div class="carousel__info">
+      <div class="carousel__standard">
+        <div class="carousel__info">
         <h1>${slide.title}</h1>
         <p>${slide.description}</p>
         <button class="button">Watch now</button>
+        </div>
       </div>
     </a>
   `;

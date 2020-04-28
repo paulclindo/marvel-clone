@@ -15,7 +15,9 @@
 }
 
 /* General Setting */
-*, :after, :before {
+*,
+:after,
+:before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -244,10 +246,10 @@ h1 {
   font-weight: 600;
   margin-left: 26px;
 }
-.nav-flyout__links li a{
+.nav-flyout__links li a {
   color: var(--darker-color);
 }
-.nav-flyout__links li a:hover{
+.nav-flyout__links li a:hover {
   color: var(--red-color);
 }
 .nav-flyout__content {
@@ -258,7 +260,7 @@ h1 {
   flex-wrap: wrap;
   margin: 0 auto;
 }
-.nav-flyout__cards{
+.nav-flyout__cards {
   display: flex;
   /* justify-content: space-evenly; */
   padding-top: 20px;
@@ -270,69 +272,68 @@ h1 {
   text-transform: uppercase;
 }
 .nav__card {
-  display:block;
+  display: block;
   /* flex-direction: column; */
-  width:25%;
+  width: 25%;
   margin: 0 9px;
-
 }
-.nav__card-header{
+.nav__card-header {
   width: 100%;
-  height:0;
-  position:relative;
+  height: 0;
+  position: relative;
   padding-bottom: 56.25%;
-
 }
 .nav__image {
   position: absolute;
-  top:0;
-  left:0;
-  bottom:0;
-  right:0;
-  width:100%;
-  height:100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
-.nav__card-body{
-  padding:20px 40px 0 0;
+.nav__card-body {
+  padding: 20px 40px 0 0;
 }
-.nav__card__title{
-  color:var(--red-color);
+.nav__card__title {
+  color: var(--red-color);
   font-weight: bold;
   font-size: 14px;
   line-height: 1;
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 }
-.nav__card__season{
-  color:var(--gray-darker-color);
+.nav__card__season {
+  color: var(--gray-darker-color);
   font-weight: bold;
   font-size: 14px;
-
 }
-.nav__card__headline{
+.nav__card__headline {
   font-family: var(--r-font);
-  font-weight:bold;
+  font-weight: bold;
   text-transform: capitalize;
   letter-spacing: 0;
   font-size: 15px;
-  margin:8px 0 0;
+  margin: 8px 0 0;
 }
-.nav-flyout__extra{
+.nav__card__headline:hover {
+  color: var(--red-color);
+}
+.nav-flyout__extra {
   margin-top: 30px;
   display: flex;
   font-size: 12px;
   justify-content: center;
 }
-.nav-flyout__extra h4{
-  color:var(--brown-color);
+.nav-flyout__extra h4 {
+  color: var(--brown-color);
 }
 .extra__links {
   display: flex;
-
 }
 .extra__links li {
-margin-left:20px;
+  margin-left: 20px;
 }
-.extra__links li a:hover{
+.extra__links li a:hover {
   color: var(--red-color);
 }
 /* Banner Section */
@@ -400,11 +401,19 @@ margin-left:20px;
 .carousel__page {
   position: relative;
 }
-.carousel__info {
+.carousel__standard {
   position: absolute;
-  top: 50%;
-  left: 10%;
-  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.carousel__info {
+  width: 55%;
   color: var(--white-color);
 }
 .carousel__info h1 {
@@ -439,14 +448,16 @@ margin-left:20px;
 
 .carousel__nav {
   position: relative;
+  max-width: 1240px;
+  margin: 0 auto;
+  height: auto;
 }
 
 .carousel__indicators {
   background-color: var(--white-color);
-  position: absolute;
-  left: 10%;
-  top: -55px;
-  padding: 0 1rem;
+  width: 80%;
+  margin-top: -55px;
+  padding: 0 20px 0;
   display: flex;
   align-items: center;
   justify-self: center;
@@ -457,14 +468,16 @@ margin-left:20px;
   min-width: 125px;
   flex: 1;
   height: 80px;
-  padding: 1.2rem 0;
+  /* padding: 1.2rem 0; */
+  padding: 20px 30px 20px 0;
 }
 .carousel__indicator a {
+  font-size: 14px;
+  font-family: var(--r-font);
   font-weight: bold;
-  padding: 20px 30px 20px 0;
   letter-spacing: 0.8px;
-  font-weight: 600;
   transition: 0.8s all;
+  line-height: 1.2;
 }
 .carousel__indicator a:hover {
   color: var(--red-color);
