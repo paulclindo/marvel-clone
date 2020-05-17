@@ -52,7 +52,11 @@ button.filled {
   background-color: unset;
   background-image: paint(marvelbtn, filled);
 }
-
+/* To fix */
+button.stroke {
+  border: 1px solid var(--white-color);
+}
+/* ----- */
 a {
   text-decoration: none;
   color: inherit;
@@ -236,6 +240,7 @@ h1 {
   /* height: 500px; */
   padding-bottom: 20px;
   background: var(--white-color);
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.2);
 }
 .nav-flyout__links {
   display: flex;
@@ -276,6 +281,10 @@ h1 {
   /* flex-direction: column; */
   width: 25%;
   margin: 0 9px;
+  cursor: pointer;
+}
+.nav__card--games .nav__card-body {
+  padding: 9px 0 0;
 }
 .nav__card-header {
   width: 100%;
@@ -298,6 +307,14 @@ h1 {
 .nav__card__title {
   color: var(--red-color);
   font-weight: bold;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+.nav__card__subtitle {
+  color: var(--gray-darker-color);
+  font-weight: bold;
+  text-transform: uppercase;
   font-size: 14px;
   line-height: 1;
   letter-spacing: 1px;
@@ -336,6 +353,70 @@ h1 {
 .extra__links li a:hover {
   color: var(--red-color);
 }
+
+/* flyout nav TV */
+.nav__card--tv .nav__card-header {
+  padding-bottom: 207px;
+  box-shadow: 0 7px 17px -8px rgba(0, 0, 0, 0.8);
+}
+.flyout-tv .nav__card-body {
+  padding: 9px 0 0;
+}
+
+/* flyout nav GAMES */
+.nav__card--games {
+  cursor: pointer;
+}
+.nav__card--games .nav__card-header {
+  padding-bottom: 175px;
+  box-shadow: 0 7px 17px -8px rgba(0, 0, 0, 0.8);
+}
+.nav__card__secondary {
+  padding-top: 5px;
+  color: var(--gray-darker-color);
+  font-family: 12px/1 var(--rc-font);
+}
+/* flyout nav MORE */
+.flyout-more .nav-flyout__links {
+  padding: 125px 0;
+}
+.flyout-more li {
+  margin-left: 60px;
+}
+.flyout-more li a {
+  font-size: 26px;
+  display: block;
+}
+.flyout-more .nav-flyout__extra {
+  margin: 0;
+}
+.nav-flyout__callout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem 1rem;
+}
+.flyout-more .footer__follow__icons {
+  margin-right: 3rem;
+}
+.callout__content {
+  margin-left: 1rem;
+  text-align: center;
+}
+.callout__title {
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+.callout__description {
+  text-transform: capitalize;
+  color: var(--gray-darker-color);
+  font-family: var(--r-font);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+}
+
 /* Banner Section */
 .banner__wrapper {
   width: 100%;
@@ -395,6 +476,8 @@ h1 {
   width: 100vw;
   height: inherit;
   z-index: 0;
+  padding-bottom: 1rem;
+  background-color: var(--black-color);
   /* transform: translate3d(0%, 0px, 0px); */
   /* opacity: 0; */
 }
@@ -572,14 +655,14 @@ h1 {
 }
 .streaming__cards__container {
   display: grid;
-  padding: 20px;
+  padding: 35px 20px;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 20px;
 }
 .streaming__card {
   display: grid;
   grid-template-rows: 150px 20px 60px;
-  grid-gap: 10px;
+  grid-gap: 14px;
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: bold;
@@ -593,7 +676,7 @@ h1 {
   background-repeat: no-repeat;
 }
 
-.streaming__card:nth-child(1) .card--image {
+/* .streaming__card:nth-child(1) .card--image {
   background-image: url("https://terrigen-cdn-dev.marvel.com/content/prod/1x/universe_thumb_wide.jpg");
 }
 .streaming__card:nth-child(2) .card--image {
@@ -604,10 +687,11 @@ h1 {
 }
 .streaming__card:nth-child(4) .card--image {
   background-image: url("https://terrigen-cdn-dev.marvel.com/content/prod/1x/mhp-1-10-comics_card.jpg");
-}
+} */
 
 .card--header {
   margin-top: 7px;
+  font-family: var(--rc-font);
   color: var(--red-color);
   text-transform: uppercase;
 }
@@ -616,6 +700,7 @@ h1 {
   letter-spacing: 1.5;
   font-weight: 600;
   font-size: 15px;
+  padding-right: 10px;
 }
 a:hover .card--body {
   color: var(--red-color);
