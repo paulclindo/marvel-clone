@@ -83,7 +83,15 @@ h1 {
 }
 
 /* Utilities Styles */
-
+/* #loader {
+  display: block;
+  opacity: 1;
+}
+#content {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+} */
 .separator {
   margin: 5px;
 }
@@ -329,8 +337,9 @@ h1 {
   font-weight: bold;
   text-transform: capitalize;
   letter-spacing: 0;
-  font-size: 15px;
+  font-size: 14px;
   margin: 8px 0 0;
+  line-height: 1.2;
 }
 .nav__card__headline:hover {
   color: var(--red-color);
@@ -353,7 +362,87 @@ h1 {
 .extra__links li a:hover {
   color: var(--red-color);
 }
+.nav__card-header {
+  transition: transform 0.6s;
+}
+.nav__card:hover .nav__card-header {
+  transform: translateY(-6px);
+}
+.nav__card:hover .nav__card__headline {
+  color: var(--red-color);
+}
+/* flyout nav CHARACTER */
+.nav__card--character .nav__card-header {
+  padding-bottom: 207px;
+  box-shadow: 0 7px 17px -8px rgba(0, 0, 0, 0.8);
+}
+.flyout-character .nav__card-header {
+  height: 185px;
+}
+.flyout-character .nav__card-body {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  height: 145px;
+  padding: 16px 24px 17px 20px;
+  z-index: 1;
 
+  background-color: var(--black-color);
+}
+.flyout-character .nav__card-body:after {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 4px;
+  background-color: var(--red-color);
+  transition: height 0.5s;
+}
+.nav__card--character {
+  position: relative;
+  overflow: hidden;
+}
+.nav__card--character .nav__card__headline {
+  margin: 0;
+  font-size: 16px;
+}
+.nav__card--character:after {
+  position: absolute;
+  z-index: 3;
+  content: "";
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-right-color: var(--white-color);
+  border-style: solid;
+  border-top-color: transparent;
+  border-width: 12px 12px 0 0;
+  bottom: 0;
+  right: 0;
+  top: auto;
+}
+.nav__card--character img {
+  transition: 0.5s;
+}
+.nav__card--character:hover .nav__card-body:after {
+  height: 100%;
+}
+.nav__card--character:hover .nav__card-header img {
+  transform: scale3d(1.05, 1.05, 1);
+}
+.nav__card--character:hover .nav__card__character {
+  color: var(--white-color);
+}
+.flyout-character .nav__card__headline {
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+.flyout-character .nav__card__character {
+  color: var(--gray-darker-color);
+  transition: 0.5s;
+}
 /* flyout nav TV */
 .nav__card--tv .nav__card-header {
   padding-bottom: 207px;
@@ -539,7 +628,7 @@ h1 {
 .carousel__indicators {
   background-color: var(--white-color);
   width: 80%;
-  margin-top: -55px;
+  margin-top: -50px;
   padding: 0 20px 0;
   display: flex;
   align-items: center;
@@ -552,7 +641,7 @@ h1 {
   flex: 1;
   height: 80px;
   /* padding: 1.2rem 0; */
-  padding: 20px 30px 20px 0;
+  padding: 14px 30px 20px 0;
 }
 .carousel__indicator a {
   font-size: 14px;

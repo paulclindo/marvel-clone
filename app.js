@@ -2,6 +2,8 @@ import data from "./data.js";
 // CSS.paintWorklet.addModule("marvelbtn.js");
 
 /*DOM*/
+// const $global = document.querySelector("#content");
+// const $loader = document.querySelector("#loader");
 const $carouselTrack = document.querySelector(".carousel__track");
 const $streamContainer = document.querySelector(".streaming__cards__container");
 const $comicFirstWrapper = document.querySelector(".comicfirst__wrapper");
