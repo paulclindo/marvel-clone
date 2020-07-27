@@ -33,28 +33,30 @@ body {
 
 /* TODO */
 button {
-  --btn-color: var(--red-color);
-  font-weight: bold;
-  color: var(--white-color);
-  background-color: var(--red-color);
-  font-size: 14px;
   border: none;
   padding: 1.2em 2em;
   min-width: 150px;
   text-transform: uppercase;
   cursor: pointer;
+  font-size: 14px;
 }
-button.stroke {
-  background-color: unset;
-  background-image: paint(marvelbtn, stroke);
-}
-button.filled {
-  background-color: unset;
-  background-image: paint(marvelbtn, filled);
+
+.btn--marvel {
+  font-family: var(--r-font);
+  font-weight: bold;
+  color: var(--white-color);
+  background-color: var(--red-color);
+  clip-path: polygon(10% 0%, 100% 0, 100% 70%, 90% 100%, 0 100%, 0% 30%);
 }
 /* To fix */
+
 button.stroke {
-  border: 1px solid var(--white-color);
+  position: relative;
+  background-color: transparent;
+  border: 1px solid white;
+}
+button.filled {
+  border: none;
 }
 /* ----- */
 a {
@@ -531,6 +533,11 @@ h1 {
   width: 100%;
   height: 100%;
 }
+.banner__title {
+  font-family: var(--rc-font);
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
 
 /* Slider Hero */
 
@@ -673,28 +680,8 @@ h1 {
   background-color: var(--red-color);
   height: 6px;
 }
-
-/* section streaming */
-
-.streaming__logo {
-  margin-bottom: 1rem;
-}
-.streaming__wrapper {
-  position: absolute;
-  height: 100%;
-  width: 1240px;
-  margin: auto;
-}
-.streaming__background {
-  background-image: url(https://terrigen-cdn-dev.marvel.com/content/prod/1x/newmu_base_set_dsk.jpg);
-  background-position: center;
-}
-.section {
-  padding: 6rem 0 40px;
-  height: 100vh;
-  background-color: var(--white-color);
-}
-
+/* SPLIT
+ */
 .section__header {
   position: relative;
   display: grid;
@@ -720,12 +707,7 @@ h1 {
   height: 100%;
   clip-path: polygon(0 0, 0 100%, 100% 92%, 100% 0);
 }
-.streaming__background {
-  /* height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
+.split__background {
   position: absolute;
   height: 100%;
   width: auto;
@@ -749,6 +731,51 @@ h1 {
   z-index: 1;
 }
 
+.split__wrapper {
+  position: absolute;
+  height: 100%;
+  width: 1240px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 50%;
+  z-index: 1;
+  transform: translateX(-50%);
+}
+.split__container {
+  max-width: 530px;
+  padding: 20px 20px 50px;
+}
+.split__background {
+  background-position: center;
+}
+
+/* section streaming */
+
+.streaming__logo {
+  margin-bottom: 1rem;
+}
+
+.streaming__background {
+  background-image: url(https://terrigen-cdn-dev.marvel.com/content/prod/1x/newmu_base_set_dsk.jpg);
+}
+.streaming__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: var(--rc-font);
+}
+.streaming__description {
+  margin: 10px 0 25px;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
+.section {
+  padding: 6rem 0 40px;
+  height: 100vh;
+  background-color: var(--white-color);
+}
+
 /* Cards  */
 .cards__wrapper {
   position: relative;
@@ -757,12 +784,29 @@ h1 {
   margin: 0 auto;
   max-width: 1240px;
   margin-top: -70px;
+  overflow-x: scroll;
 }
-.streaming__cards__container {
-  display: grid;
-  padding: 35px 20px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
+/* SCROLLBAR */
+.cards__wrapper::-webkit-scrollbar {
+  height: 3px;
+}
+
+.cards__wrapper::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border: 2px solid #f2f2f2;
+}
+
+.cards__wrapper::-webkit-scrollbar-thumb {
+  background-color: var(--red-color);
+}
+
+.split__cards__container {
+  display: inline-flex;
+  padding: 35px 20px 50px;
+}
+.streaming__cards__container > div {
+  margin-right: 20px;
+  width: 285px;
 }
 .streaming__card {
   display: grid;
@@ -812,15 +856,30 @@ a:hover .card--body {
 }
 
 /* Suscription */
+.suscription {
+  padding: 0;
+}
 .suscription__main {
   align-items: flex-start;
   justify-items: center;
   padding-left: 24%;
 }
-.suscription__background__wrapper {
-  background-image: url(https://terrigen-cdn-dev.marvel.com/content/prod/1x/mu_base_set_dsk.jpg);
-  background-position: bottom;
+.cross.suscription__subtitle {
+  font-size: 18px;
+  font-family: var(--rc-font);
 }
+.suscription__background {
+  background-image: url(https://terrigen-cdn-dev.marvel.com/content/prod/1x/0420_mu_base_set_dsk.jpg);
+  /* background-position: bottom; */
+}
+.suscription__cards__container {
+  padding-bottom: 20px;
+}
+.suscription__cards__container > div {
+  margin-right: 20px;
+  width: 184px;
+}
+
 .cross {
   position: relative;
   margin: 2rem 0;
@@ -853,19 +912,21 @@ a:hover .card--body {
   margin: 1rem 0;
   font-size: 2.5rem;
   letter-spacing: 1px;
+  font-family: var(--rc-font);
 }
 .cards__container {
   overflow-x: scroll;
   white-space: nowrap;
   padding: 2rem;
 }
-.suscription__card {
-  width: 200px;
-  display: inline-block;
-  margin-right: 1rem;
+.suscription__card .year {
+  font-family: var(--rc-font);
+  font-weight: bold;
+  font-size: 12px;
 }
 
 .suscription__card a {
+  width: 100%;
   display: grid;
   grid-template-rows: 260px 1fr 1fr;
   grid-gap: 10px;
@@ -890,8 +951,7 @@ a:hover .card--body {
 
 /* podcast section */
 .podcast {
-  height: 40vh;
-  padding: 6rem 0 40px;
+  margin: 7rem 0 10px;
   background-color: white;
 }
 .section > .title__section {
@@ -906,26 +966,39 @@ a:hover .card--body {
 }
 .podcast .card--header {
   color: #999999;
+  letter-spacing: 1px;
 }
 .podcast__card {
   display: grid;
   grid-template-rows: 150px 20px 60px;
   grid-gap: 10px;
   font-size: 14px;
-  letter-spacing: 1px;
   font-weight: bold;
 }
 .podcast div {
-  letter-spacing: 1.5px;
+  letter-spacing: 0.5px;
 }
 
 /* latest section */
 .latest {
-  /* height: 50vh; */
-  margin: auto;
+  margin: 30px auto 80px;
   display: flex;
-  padding: 6rem 0 40px;
+  padding: 8rem 0 40px;
   background-color: white;
+  max-width: 1240px;
+}
+.latest__label {
+  font-family: var(--rc-font);
+  letter-spacing: 1px;
+  font-size: 26px;
+  margin: 0;
+  line-height: 0.9;
+}
+.stroke.latest__btn {
+  margin: 10px auto;
+  color: var(--darker-color);
+  border: 1px solid var(--darker-color);
+  display: block;
 }
 .latest__left {
   flex: 4 0 70%;
@@ -941,9 +1014,10 @@ a:hover .card--body {
 
 .card__latest__wrapper {
   display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  border-bottom: 1px solid #f2f2f2;
+  align-items: flex-start;
+  padding: 20px 0;
+  border-bottom: 1px solid #bbb;
+  cursor: pointer;
 }
 .card__latest__image {
   flex: 1 0 50%;
@@ -961,8 +1035,12 @@ a:hover .card--body {
   color: #999999;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-weight: bold;
   margin: 0.8rem 0;
+  font-size: 14px;
+  font-family: var(--rc-font);
+}
+.card__title:hover {
+  color: var(--red-color);
 }
 .card__title {
   color: var(--darker-color);
@@ -975,8 +1053,15 @@ a:hover .card--body {
   color: #999999;
   letter-spacing: 1px;
   text-transform: uppercase;
-  /* font-weight: bold; */
+  font-family: var(--rc-font);
   font-size: 0.8rem;
+}
+.card__tag {
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--red-color);
+  font-weight: bold;
 }
 /* Feed section */
 .feed__wrapper {
@@ -1193,9 +1278,17 @@ section .section {
 .comic {
   height: auto;
 }
+.comic__title {
+  font-size: 18px;
+  font-family: var(--rc-font);
+  letter-spacing: 4px;
+}
 .comic__background__wrapper {
-  background: url(https://terrigen-cdn-dev.marvel.com/content/prod/1x/new_com_20200309_set_01.jpg);
+  background: url(https://terrigen-cdn-dev.marvel.com/content/prod/1x/new_com_20200727_set_01.jpg);
   background-position: left center;
+}
+.comic__actions button:first-child {
+  margin-right: 14px;
 }
 
 /* promo section */
@@ -1360,7 +1453,7 @@ section .section {
 
 /* TO REFACTOR */
 .marvelHome {
-  padding-top: 40px;
+  padding-top: 20px;
   margin: 80px auto 0;
   /* grid-template-columns: repeat(auto-fill,minmax(23.75%,1fr)); */
 }
@@ -1404,7 +1497,7 @@ section .section {
   grid-column-gap: 10px;
 }
 .marvelHome__card {
-  padding: 6px 10px 4px;
+  padding: 6px 0 4px;
 }
 .marvelHome__card .card-body {
   padding-top: 10px;

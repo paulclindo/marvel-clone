@@ -9,7 +9,7 @@ const $streamContainer = document.querySelector(".streaming__cards__container");
 const $comicFirstWrapper = document.querySelector(".comicfirst__wrapper");
 const $comicSecondWrapper = document.querySelector(".comicsecond__wrapper");
 const $podcastWrapper = document.querySelector(".podcast__cards__container");
-const $lastesRectWrapper = document.querySelector(".latest__left");
+const $lastesRectWrapper = document.querySelector(".latest__cards");
 const $lastesBoxWrapper = document.querySelector(".latest__right .feed__cards");
 const $videosWrapper = document.querySelector(".video__vertical");
 
@@ -38,7 +38,7 @@ baseSlides.forEach((slide) => {
         <div class="carousel__info">
         <h1>${slide.title}</h1>
         <p>${slide.description}</p>
-        <button class="button">Watch now</button>
+        <button class="btn--marvel">Watch now</button>
         </div>
       </div>
     </a>
@@ -67,9 +67,9 @@ comicsone.forEach((comic) => {
   const comicEl = document.createElement("div");
   comicEl.classList.add("suscription__card");
   comicEl.innerHTML = `<a href="#">
-    <div  style="width:200px; background-image: url(${comic.imageUrl})" class="card--image"></div>
+    <div style="background-image: url(${comic.imageUrl}); background-size: cover;" class="card--image"></div>
     <div class="">${comic.description}</div>
-    <p class="">${comic.year}</p>
+    <p class="year">${comic.year}</p>
   </a>`;
   $comicFirstWrapper.appendChild(comicEl);
 });
@@ -77,9 +77,9 @@ comicstwo.forEach((comic) => {
   const comicEl = document.createElement("div");
   comicEl.classList.add("suscription__card");
   comicEl.innerHTML = `<a href="#">
-    <div  style="width:200px; background-image: url(${comic.imageUrl})" class="card--image"></div>
+    <div  style="background-image: url(${comic.imageUrl}); background-size: cover;" class="card--image"></div>
     <div class="">${comic.description}</div>
-    <p class="">${comic.year}</p>
+    <p class="year">${comic.year}</p>
   </a>`;
   $comicSecondWrapper.appendChild(comicEl);
 });
@@ -110,7 +110,8 @@ latestrects.forEach((item) => {
             />
           </figure>
           <div class="card__latest__info">
-            <p class="card__heading">${item.label || ""}</p>
+            <p class="card__tag">${item.tag || ""}</p>
+            <a class="card__heading">${item.label || ""}</a>
             <p class="card__title">
               ${item.title}
             </p>

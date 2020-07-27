@@ -72,6 +72,70 @@ export default {
       description:
         "Our Comics Guide to 'X-Men: The Animated Series’ S4 on Disney+",
     },
+    {
+      id: 4,
+      imageUrl:
+        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/twim-recs-3-23-20.jpg",
+      type: "Culture & Lifestyle",
+      description:
+        "From Marvel Comics to Disney+, See This Week in Marvel's Radical Recommendations",
+    },
+    {
+      id: 5,
+      imageUrl:
+        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/dplus_card.jpg",
+      type: "TV Shows",
+      description:
+        "Release Dates Confirmed for 'The Falcon and The Winter Soldier' and 'WandaVision' on Disney+",
+    },
+    {
+      id: 6,
+      imageUrl:
+        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/mhp-3-30-comics_card.jpg",
+      type: "TV Shows",
+      description:
+        "Read All 20 Free 'Marvel's Hero Project' Comics on Marvel Unlimited",
+    },
+    {
+      id: 7,
+      imageUrl:
+        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/x-men_tas_s4.jpg",
+      type: "Comics",
+      description:
+        "Our Comics Guide to 'X-Men: The Animated Series’ S4 on Disney+",
+    },
+    {
+      id: 8,
+      imageUrl:
+        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/twim-recs-3-23-20.jpg",
+      type: "Culture & Lifestyle",
+      description:
+        "From Marvel Comics to Disney+, See This Week in Marvel's Radical Recommendations",
+    },
+    {
+      id: 9,
+      imageUrl:
+        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/dplus_card.jpg",
+      type: "TV Shows",
+      description:
+        "Release Dates Confirmed for 'The Falcon and The Winter Soldier' and 'WandaVision' on Disney+",
+    },
+    {
+      id: 10,
+      imageUrl:
+        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/mhp-3-30-comics_card.jpg",
+      type: "TV Shows",
+      description:
+        "Read All 20 Free 'Marvel's Hero Project' Comics on Marvel Unlimited",
+    },
+    {
+      id: 11,
+      imageUrl:
+        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/x-men_tas_s4.jpg",
+      type: "Comics",
+      description:
+        "Our Comics Guide to 'X-Men: The Animated Series’ S4 on Disney+",
+    },
   ],
   comicsone: [
     {
@@ -411,22 +475,20 @@ export default {
       id: 0,
       imageUrl: "https://terrigen-cdn-dev.marvel.com/content/prod/1x/16x9.png",
       label: "Comics",
-      title: "Exclusive Announcement: New Marvel Comics Coming in June 2020",
+      title: "Exclusive Announcement: New Marvel Comics Coming in June",
     },
     {
       id: 1,
       imageUrl:
-        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/0_1fe1_0.jpg",
+        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/_wom_card_3.jpg",
       label: "Podcasts",
       title: "Join the 'Infinity Gauntlet' Reading Club",
     },
     {
       id: 2,
-      imageUrl:
-        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/wom-3-26-20.jpg",
+      imageUrl: "https://terrigen-cdn-dev.marvel.com/content/prod/1x/dpv_0.png",
       label: "Podcasts",
-      title:
-        "Women of Marvel Heralds the Coming of Galactus with the Creators of the 'Marvels' Podcast",
+      title: "Answering Your Deadpool Questions on 'This Week in Marvel'",
     },
     {
       id: 3,
@@ -484,6 +546,7 @@ export default {
       id: 0,
       imageUrl:
         "https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6146329442001_db400e078549409d0fac4e1882bd5fa9.jpg",
+      tag: "Trailers & extras",
       label: "Earth's Mightiest Show",
       title: "Animated Spider-Woman - Best Scenes",
       time: null,
@@ -492,6 +555,7 @@ export default {
       id: 1,
       imageUrl:
         "https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6146876297001_73f8181d700e1ee0663d0ec590180d50_0.jpg",
+      tag: "",
       label: "Marvel's The Pull List",
       title: "FREE COMICS on Marvel Unlimited | Marvel's Pull List",
       time: "1 day ago",
@@ -500,6 +564,7 @@ export default {
       id: 2,
       imageUrl:
         "https://terrigen-cdn-dev.marvel.com/content/prod/1x/marvelstudios_logo_0.jpg",
+      tag: "Marvel Live",
       label: null,
       title:
         "Updated Marvel Studios Releases Included Newly-Announced Captain Marvel 2",
@@ -509,6 +574,7 @@ export default {
       id: 3,
       imageUrl:
         "https://terrigen-cdn-dev.marvel.com/content/prod/1x/0403_recap-new-1560x876.jpg",
+      tag: "Marvel Live",
       label: null,
       title: "This Week's 10 Must-Read Marvel Stories: 4-3-2020",
       time: "1 day ago",
@@ -517,6 +583,7 @@ export default {
       id: 4,
       imageUrl:
         "https://terrigen-cdn-dev.marvel.com/content/prod/1x/_bw_card_2.jpg",
+      tag: "Marvel Live",
       label: null,
       title: "Marvel Studios’ 'Black Widow': New Release Date for 2020",
       time: "1 day ago",
@@ -525,6 +592,7 @@ export default {
       id: 5,
       imageUrl:
         "https://terrigen-cdn-dev.marvel.com/content/prod/1x/avx_card_image.jpg",
+      tag: "Marvel Live",
       label: null,
       title: "5 Best 'Avengers vs. X-Men' Battles and the 5 We Want to See",
       time: "1 day ago",
@@ -533,6 +601,7 @@ export default {
       id: 6,
       imageUrl:
         "https://terrigen-cdn-dev.marvel.com/content/prod/1x/clean_98.jpg",
+      tag: "Marvel Minute",
       label: null,
       title: "Who Has the Best Hair in the Marvel Universe?",
       time: "1 day ago",
@@ -541,6 +610,7 @@ export default {
       id: 7,
       imageUrl:
         "https://terrigen-cdn-dev.marvel.com/content/prod/1x/twim-4-3-20.jpg",
+      tag: null,
       label: null,
       title: "This Week in Marvel Tackles Tenacious Teen Teams",
       time: "1 day ago",
@@ -550,13 +620,13 @@ export default {
     {
       id: 0,
       imageUrl:
-        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6145220922001_1ce9c47b61d169045390a121eb3109c9_0.jpg",
+        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6174745178001_7337a4c29ccff0a5c9c119fd253c08ef.jpg",
       title: "Does Spider-Woman have 8 legs?!",
     },
     {
       id: 1,
       imageUrl:
-        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6144640137001_36aaca11359679f21d60446a4b68e67a_0.jpg",
+        "url(https://terrigen-cdn-dev.marvel.com/content/prod/1x/poster_6175535837001_d1fc4f1a1e8f3f6e921b7ab175ab0136.jpg",
       title: "Ant-Man (Hank Pym) | Marvel 101",
     },
     {
