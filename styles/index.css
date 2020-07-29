@@ -581,13 +581,23 @@ h1 {
 }
 .carousel__slide {
   position: absolute;
-  width: 100vw;
+  width: 100%;
   height: inherit;
   z-index: 0;
   padding-bottom: 1rem;
   background-color: var(--black-color);
+  /* animation-name: fadeOutTranslate3d;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; */
   /* transform: translate3d(0%, 0px, 0px); */
   /* opacity: 0; */
+}
+.next {
+  animation: 3s fadeInTranslate3d 3s forwards;
+}
+.prev {
+  animation: 3s fadeOutTranslate3d 3s alternate;
 }
 .carousel__page {
   position: relative;
@@ -621,7 +631,22 @@ h1 {
   margin: 1rem 0;
 }
 /* TODO */
+/* .carousel__slide:nth-child(0) {
+  opacity: 0;
+  z-index: 0;
+  transform: translate3d(25%, 0px, 0px);
+} */
+/* .carousel__slide:nth-child(1) {
+  opacity: 0;
+  z-index: 0;
+  transform: translate3d(25%, 0px, 0px);
+} */
 .carousel__slide:nth-child(2) {
+  opacity: 0;
+  z-index: 0;
+  transform: translate3d(25%, 0px, 0px);
+}
+.carousel__slide:nth-child(3) {
   opacity: 0;
   z-index: 0;
   transform: translate3d(25%, 0px, 0px);
@@ -631,7 +656,36 @@ h1 {
   z-index: 0;
   transform: translate3d(25%, 0px, 0px);
 }
+.carousel__slide:nth-child(5) {
+  opacity: 0;
+  z-index: 0;
+  transform: translate3d(25%, 0px, 0px);
+}
 
+@keyframes fadeInTranslate3d {
+  from {
+    opacity: 0;
+    transform: translate3d(0%, 0px, 0px);
+    z-index: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(100%, 0px, 0px);
+    z-index: 3;
+  }
+}
+@keyframes fadeOutTranslate3d {
+  from {
+    opacity: 0;
+    transform: translate3d(0%, 0px, 0px);
+    z-index: 3;
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(-100%, 0px, 0px);
+    z-index: 0;
+  }
+}
 .carousel__slide a {
   display: block;
   height: 100%;

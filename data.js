@@ -3,21 +3,21 @@ export default {
     {
       id: 0,
       imageUrl:
-        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/blackwidow_com_mas_mob_01_0.jpg",
+        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/mcocss_0727_com_mas_mob_01.jpg",
       title: "In Theatres November 6",
       description: "Black Widow gets a new 2020 release date!",
     },
     {
       id: 1,
       imageUrl:
-        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/dpfortnite_0403_com_mas_mob_01.jpg",
+        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/heroes_0727_com_mas_mob_01.jpg",
       title: "Deadpool Arrives in Fortnite",
       description: "Marvel's most famous merc has invaded Fortnite!",
     },
     {
       id: 2,
       imageUrl:
-        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/muoffer_com_mas_mob_02.jpg",
+        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/alexross_0727_com_mas_mob_01.jpg",
       title: "Free Digital Comics",
       description:
         "Marvel Unlimited is now offering free access to some of Marvel's most iconic stories.",
@@ -25,7 +25,7 @@ export default {
     {
       id: 3,
       imageUrl:
-        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/hulk_0331_com_mas_mob_01.jpg",
+        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/newmu_base_set_dsk.jpg",
       title: "Support Your Local Comic Book Shop",
       description:
         "A few ways to support small businesses like your local comic book shop.",
@@ -33,7 +33,7 @@ export default {
     {
       id: 4,
       imageUrl:
-        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/muoffer_com_mas_dsk_02.jpg",
+        "https://terrigen-cdn-dev.marvel.com/content/prod/1x/cchallh_0724_com_mas_mob_01.jpg",
       title: "Rare Marvel Art",
       description:
         "Take a look at some rare vintage Marvel art featuring the Fantastic Four, X-Men and more, courtesy of our very own Tom Brevoort!",

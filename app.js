@@ -166,3 +166,13 @@ videos.forEach((video) => {
   `;
   $videosWrapper.appendChild(videoEl);
 });
+
+/* carousel animation */
+const carouselItems = $carouselTrack.querySelectorAll(".carousel__slide");
+
+setTimeout(() => {
+  console.log(carouselItems[0]);
+  carouselItems[0].classList.add("prev");
+  carouselItems[0].classList.add("next");
+}, 1000);
+// carouselItems[1].classList.add = "next";
