@@ -551,7 +551,9 @@ h1 {
 /* Slider Hero */
 
 .hero {
-  height: 636px;
+  min-height: 410px;
+  max-height: 640px;
+  height: 63vh;
 }
 .carousel {
   height: inherit;
@@ -957,13 +959,14 @@ a:hover .card--body {
 
 /* podcast section */
 .podcast {
-  margin: 7rem 0 10px;
+  margin: 0 0 10px;
   background-color: white;
 }
 .section > .title__section {
   font-weight: 500;
   letter-spacing: 0.5px;
   font-size: 26px;
+  font-family: var(--rc-font);
 }
 .podcast__cards__container {
   display: grid;
@@ -1212,7 +1215,7 @@ button.btn--play {
 }
 .video__main__description .description__title {
   font-size: 1.7rem;
-  font-weight: 500;
+  font-weight: bold;
   font-family: Roboto;
   text-transform: capitalize;
 }
@@ -1307,33 +1310,40 @@ section .section {
 .promo > .container {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .promo__content__main {
-  padding: 2rem;
+  padding: 0 2rem;
   text-align: center;
+  margin-top: 2rem;
 }
-
+.promo__image {
+  flex: 1;
+}
+.promo__content {
+  flex: 1;
+}
 .promo__content__main > * {
   padding: 1rem 0;
   font-family: "Roboto", sans-serif;
+}
+.promo__content__main > a {
+  padding: 0;
 }
 .promo__label {
   color: var(--red-color);
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-family: var(--rc-font);
 }
 .promo__title {
-  font-size: 1.8rem;
   font-weight: 600;
-}
-.promo__description {
-  letter-spacing: 1px;
+  font-size: 26px;
 }
 .promo__legal {
-  font-size: 0.6rem;
+  font-size: 11px;
   letter-spacing: 0.8px;
   font-weight: lighter;
+  margin-top: 40px;
 }
 .promo a {
   position: absolute;
@@ -1365,9 +1375,9 @@ section .section {
   text-transform: uppercase;
 }
 
-.icon--svg {
-  /* display: block;
-  width: 90px; */
+.footer--svg {
+  display: block;
+  width: 90px;
 }
 .footer__logo {
   padding-right: 2rem;
@@ -1395,7 +1405,7 @@ section .section {
 }
 .footer__promos__info {
   padding-left: 2rem;
-  flex: 8;
+  flex: 4;
   letter-spacing: 1.2px;
   font-size: 0.8rem;
 }
@@ -1455,6 +1465,9 @@ section .section {
 }
 .footer__legal__link:hover {
   color: var(--white-color);
+}
+.primary__links {
+  margin-right: 2rem;
 }
 
 /* TO REFACTOR */
