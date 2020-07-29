@@ -8,6 +8,7 @@
       Marvel.com | The Official Site for Marvel Movies, Characters, Comics, TV
     </title>
     <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 768px)" href="./styles/mobile.css" />
     <link
       rel="icon"
       href="https://www.marvel.com/static/images/favicon/favicon.ico"
@@ -67,7 +68,7 @@
                 </a>
               </div>
               <div class="menu-right">
-                <a href="" class="mastercard">
+                <a href="" class="mastercard desktop">
                   <span class="svg--icon icon--svg--white-fill">
                     <svg
                       id="Layer_2_1_"
@@ -82,6 +83,15 @@
                   </span>
                   <span class="mastercard--marvel"
                     >Marvel <br />Mastercard®
+                  </span>
+                </a>
+                <a href="" class="menu">
+                  <span class="svg--icon icon--svg--white-fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16"><g fill-rule="evenodd"><path d="M0 14h24v2H0zM0 8h24v2H0zM0 2h24v2H0z"></path></g></svg>
+                  </span>
+                  <span class="mastercard--marvel">
+                    <!-- menu -->
+                    <!-- <input type="checkbox" name="menu" id="burguer"> -->
                   </span>
                 </a>
                 <a href="" class="search">
@@ -972,8 +982,11 @@
       </header>
       <section class="banner__wrapper">
         <div class="banner__content">
-          <span class="banner__title"
+          <span class="banner__title desktop"
             >MARVEL MOVIES & SERIES STREAMING ANYTIME ON</span
+          >
+          <span class="banner__title mobile"
+            >START STREAMING NOW</span
           >
           <a
             class="banner__btn"
@@ -1263,7 +1276,7 @@
         <!-- <div class="streaming__cards__wrapper cards__wrapper">
           <div class="streaming__cards__container split__cards__container">
             <!-- card -->
-          </div>
+          <!-- </div>
         </div> -->
         <div class="suscription__cards__wrapper cards__wrapper">
           <div

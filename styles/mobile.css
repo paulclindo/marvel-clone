@@ -1,0 +1,73 @@
+.globalNav__lower {
+  display: none;
+}
+.desktop {
+  display: none;
+}
+.mobile {
+  display: block;
+}
+.mastercard {
+  display: none;
+}
+.menu-account {
+  display: none;
+}
+.search {
+  border: none;
+}
+.menu {
+  opacity: 1;
+  display: block;
+}
+.menu-right {
+  width: 100%;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+.marvelHome__cards {
+  grid-template-columns: repeat(2, 1fr);
+}
+.carousel__nav {
+  display: none;
+}
+.section__header {
+  flex-direction: column-reverse;
+}
+.container {
+  padding: 0 20px;
+}
+.split__wrapper {
+  width: auto;
+}
+.podcast__cards__container {
+  grid-template-columns: repeat(2, 1fr);
+}
+.latest {
+  flex-direction: column-reverse;
+}
+.latest__left {
+  margin-top: 40px;
+}
+.card__latest__wrapper {
+  flex-direction: column;
+}
+.card__latest__info {
+  padding: 20px 0 0;
+}
+.video {
+  flex-direction: column;
+}
+.video__vertical {
+  overflow-x: scroll;
+}
+.video__vertical > div {
+  display: inline-block;
+  width: 200px;
+}
+.page__footer {
+  flex-direction: column;
+}
+.promo > .container {
+  flex-direction: column;
+}

@@ -109,14 +109,23 @@ h1 {
 
 .section {
   padding: 6rem 0 40px;
-  height: 90vh;
+  /* height: 90vh; */
   background-color: var(--white-color);
+}
+.mobile {
+  display: none;
+}
+.desktop {
+  display: block;
 }
 .container {
   max-width: 1200px;
   margin: auto;
 }
-
+.menu {
+  opacity: 0;
+  display: none;
+}
 /* Navbar Styles */
 
 .globalNav {
@@ -684,16 +693,17 @@ h1 {
  */
 .section__header {
   position: relative;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 560px;
   color: var(--white-color);
 }
+.section__header > * {
+  flex: 1;
+}
 
 .header__left {
-  background: var(--darker-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -704,6 +714,7 @@ h1 {
 .header__right {
   position: absolute;
   width: 100%;
+  background: var(--darker-color);
   height: 100%;
   clip-path: polygon(0 0, 0 100%, 100% 92%, 100% 0);
 }
@@ -769,11 +780,6 @@ h1 {
   margin: 10px 0 25px;
   letter-spacing: 0.5px;
   line-height: 20px;
-}
-.section {
-  padding: 6rem 0 40px;
-  height: 100vh;
-  background-color: var(--white-color);
 }
 
 /* Cards  */
@@ -1494,7 +1500,7 @@ section .section {
 .marvelHome__cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(23.75%, 1fr));
-  grid-column-gap: 10px;
+  grid-gap: 19px 10px;
 }
 .marvelHome__card {
   padding: 6px 0 4px;
